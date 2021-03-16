@@ -36,12 +36,12 @@ export const useStories = () => {
   }
 
   useEffect(() => {
-    const setStories = async () => {
+    const storiesAndAuthors = async () => {
       const storiesAndAuthors = await getStoriesAndAuthors()
       setStories(storiesAndAuthors)
     }
 
-    setStories()
+    storiesAndAuthors()
   }, [])
 
   return sortStoriesByScore(stories)

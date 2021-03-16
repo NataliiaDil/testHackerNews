@@ -1,12 +1,7 @@
 import React from 'react'
 
-/* Components */
-// import Icon from 'views/components/Icon';
-
-/* Styles */
 import './News.css'
 import NewsItem from './NewsItem'
-
 import { useStories } from 'src/hooks/news'
 
 export const News = () => {
