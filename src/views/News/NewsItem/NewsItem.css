@@ -1,0 +1,8 @@
+.NewsItem {
+  display: flex;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  flex-direction: column;
+}
